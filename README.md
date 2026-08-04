@@ -23,13 +23,13 @@
 ## Installation
 
 ```bash
-pip install micronav
+pip install waynav
 
 Or from source:
 
 ```bash
-git clone https://github.com/Orion-smith25/micronav.git
-cd micronav
+git clone https://github.com/Orion-smith25/waynav.git
+cd waynav
 pip install -e .
 ```
 
