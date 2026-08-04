@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="micronav",
+    name="waynav",
     version="0.1.0",
     author="Smith (Maritime Autonomy Lab)",
     description="Lightweight autonomous navigation library",
