@@ -1,0 +1,5 @@
+FROM python:3.11-slim
+WORKDIR /app
+COPY . .
+RUN pip install -e .
+CMD ["python3", "examples/basic_navigation.py"]

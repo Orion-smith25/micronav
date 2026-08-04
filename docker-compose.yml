@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  micronav:
+    build: .
+    container_name: micronav
+    volumes:
+      - ./examples:/app/examples
+      - ./micronav:/app/micronav
+    command: python3 examples/basic_navigation.py
