@@ -1,4 +1,4 @@
-# micronav
+# waynav
 
 **Lightweight autonomous navigation library — anywhere Python runs.**
 
@@ -10,7 +10,7 @@
 
 ## Overview
 
-`micronav` is a minimalist Python library for autonomous navigation tasks:
+`waynav` is a minimalist Python library for autonomous navigation tasks:
 
 - **Waypoint navigation** with Haversine distance and bearing
 - **PID controller** for heading and speed
@@ -28,7 +28,7 @@ pip install waynav
 Or from source:
 
 ```bash
-git clone https://github.com/Orion-smith25/waynav.git
+git clone https://github.com/Orion-smith25/micronav.git
 cd waynav
 pip install -e .
 ```
@@ -38,7 +38,7 @@ pip install -e .
 Quick Start
 
 ```python
-from micronav import WaypointNavigator, PIDController, Geofence
+from waynav import WaypointNavigator, PIDController, Geofence
 
 waypoints = [
     {"lat": -6.175, "lon": 106.827},
@@ -64,8 +64,8 @@ print(f"Inside geofence: {fence.is_inside(current)}")
 Docker
 
 ```bash
-docker build -t micronav .
-docker run -it micronav python3 examples/basic_navigation.py
+docker build -t waynav .
+docker run -it waynav python3 examples/basic_navigation.py
 ```
 
 ---
