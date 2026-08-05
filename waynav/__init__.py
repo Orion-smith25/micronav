@@ -1,4 +1,4 @@
-"""micronav - Lightweight autonomous navigation library"""
+"""waynav - Lightweight autonomous navigation library"""
 
 from .waypoint import WaypointNavigator, haversine, bearing
 from .pid import PIDController

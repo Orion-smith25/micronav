@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Basic waypoint navigation demo"""
 
-from micronav import WaypointNavigator, PIDController, Geofence
+from waynav import WaypointNavigator, PIDController, Geofence
 
 waypoints = [
     {"lat": -6.175, "lon": 106.827},
